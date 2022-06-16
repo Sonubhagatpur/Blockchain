@@ -24,7 +24,7 @@ class Blockchain():
 			self.chain.append(block)
 		
 bc=Blockchain()
-bc.block('1')
+bc.add_block('1')
 bc.add_block('2')
 bc.add_block('3')
 for block in bc.chain:
